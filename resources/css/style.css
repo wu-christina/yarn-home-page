@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333138;
+    background-color: #FFFFFA;
+    font-family: "Nunito", sans-serif;
+}
+
+main {
+    margin: 0px 10px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* NAVIGATION SECTION */
+
+.nav-container {
+    z-index: 100;
+    width: 100%;
+    background-color: #FFFFFA;
+}
+
+nav {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333138;
+}
+
+.navbar h1 {
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 0px;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+a {
+    color: #333138;
+    text-decoration: underline;
+}
+
+
+a:hover {
+    color: #AA998F;
+    text-decoration: underline;
+}
+
+
+/* HERO SECTION */
+
+.hero-container {
+    background-image: url(../images/kate-hliznitsova-tRknQ2W_0zQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    background-color: #E2D0BE;
+    opacity: 0.8;
+    width: 60%;
+    color: #333138;
+    padding: 30px;
+    line-height: 1.2;
+}
+
+/* SHOPPING SECTION */
+
+.product-container h2 {
+    text-align: center;
+    margin: 0;
+    padding: 30px 0px;
+    background-color: #F9EAE1;
+    
+}
+
+.product-flex {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #F9EAE1;
+    padding-bottom: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product-pic {
+    width: 260px;
+    height: 280px;
+    
+}
+
+img.product-pic:hover {
+    opacity: 0.7;
+}
+
+
+/* TEAM MEMBER */
+
+.team {
+    background-image: url(../images/team-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.team-header{
+    margin:0;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.team-member{
+    text-align: center;
+    line-height: 0.8;
+}
+
+.team-member-pic {
+    width: 290px;
+    height: 400px;
+    
+}
+
+
+/* CONTACT */
+
+.contact {
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #F9EAE1;
+}
+
+.contact h2,
+.contact h4 {
+    background-color: #F9EAE1;
+    line-height: 0.8;
+}
+
